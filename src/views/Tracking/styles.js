@@ -18,6 +18,7 @@ export const Background = styled.img`
   top: 0;
   right: 0;
   opacity: 0.3;
+  z-index: 1;
 
   @media only screen and (max-width: 800px){
     height: auto;
@@ -33,6 +34,7 @@ export const Body = styled.form`
   width: 60vw;
   min-width: 300px;
   height: auto;
+  z-index: 2;
 
   div{
     display: flex;

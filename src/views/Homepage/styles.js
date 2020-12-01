@@ -17,6 +17,7 @@ export const Background = styled.img`
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 1;
 `;
 
 export const Body = styled.form`
@@ -27,6 +28,7 @@ export const Body = styled.form`
   width: 60vw;
   min-width: 300px;
   height: auto;
+  z-index: 2;
 
   @media only screen and (max-width: 800px){
     width: 90vw;
